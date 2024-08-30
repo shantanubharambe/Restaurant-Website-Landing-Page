@@ -1,0 +1,304 @@
+html body {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.container-fluid {
+    height: 100vh;
+    max-width: 100%;
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    box-sizing: border-box;
+
+
+}
+
+.container-fluid .dish img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+
+}
+
+.container-fluid .col-md #heading h1 {
+    font-weight: bolder;
+    font-size: 70px;
+    font-family: cursive;
+
+}
+
+.dish img {
+
+    animation: rotation 25s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 13000px) {
+    .col-md {
+        position: relative;
+    }
+
+    .col-md #heading {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+}
+
+@media (max-width:767px) {
+    .container-fluid .dish img {
+
+        margin-top: 50px;
+    }
+
+    .col-md #heading {
+
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 660px) and (max-width: 767px) {
+    .container-fluid .dish img {
+
+        margin-top: 20px;
+    }
+
+    .row .col-md #heading h1 {
+        font-size: 50px;
+    }
+
+    .container-fluid .dish img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+    .container-fluid .dish img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 2px;
+
+    }
+
+    .row .col-md #heading h1 {
+        font-weight: bolder;
+        font-size: 40px;
+        font-family: cursive;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 499px) {
+    .container-fluid .dish img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .row .col-md #heading h1 {
+        font-weight: bolder;
+        font-size: 40px;
+        font-family: cursive;
+    }
+    .container .row .col-md{
+        height: 200px;
+        width: 150;
+         margin-top: 5%;
+    
+      }
+}
+
+@media only screen and (min-width: 368px) and (max-width: 390px) {
+    .container-fluid .dish img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 8px;
+
+    }
+
+    .row .col-md #heading h1 {
+        font-weight: bolder;
+        font-size: 40px;
+        font-family: cursive;
+    }
+}
+
+/*<!--  second step 4 box  -->   */
+
+.container .row .col-md{
+    height: 250px;
+    width:100%;
+    margin: 1%;
+   display: grid;
+   place-items: center;
+ 
+  }
+
+  .container .row #box1 {
+   
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+     
+  }
+ 
+  .container .row #box1:hover {
+
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  background-color: rgb(254, 161, 22);    
+  color: white;    
+ 
+}
+
+  .container .row #box2 {
+
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  .container .row #box2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  background-color: rgb(254, 161, 22);    
+  color: white;  
+  } 
+  .container .row #box3 {
+ 
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .container .row #box3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  background-color: rgb(254, 161, 22);    
+  color: white;   
+}
+
+  .container .row #box4 {
+ 
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .container .row #box4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  background-color: rgb(254, 161, 22);    
+  color: white;   
+  }
+
+.container .row .col-md  i{
+ font-size: 50px;
+ color: rgb(254, 161, 22);
+}
+.container .row .col-md h2{
+ font-weight: bold;
+}
+.container .row #box4:hover i{
+  color: #fff;
+}
+.container .row #box1:hover i{
+  color: #fff;
+}
+.container .row #box2:hover i{
+  color: #fff;
+}
+.container .row .col-md #box3:hover i{
+  color: #fff;
+}
+
+@media only screen and (min-width: 390px) and (max-width: 499px) {
+
+    .container .row .col-md{
+        height: 200px;
+        width: 150;
+        margin-top: 5%;
+    
+      }
+}
+
+/* third page start */
+
+.container .row{
+    margin: 1%;
+}
+
+.container .row .col-photo  img{
+  height: 100%;
+  width: 100%;
+  
+}
+.container .row .col-photo .photo2 img{
+    height: 70%;
+    width: 70%;
+    margin-top: 30%;
+    
+    
+}
+.container .row .col-photo .photo3 img{
+    height: 70%;
+    width: 70%;    
+    margin-left: 30%;
+}
+
+.container .row .col-des .des-1 h1{ 
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.container .row .col-des .des-1 h1 i{ 
+    color:rgb(254, 161, 22) ;
+}
+.container .row{
+    align-items: center;
+}
+.container .row .col-des P{
+    font-size: large;
+}
+.container .row .col-des .des-5 input{
+    height: 50px;
+    width: 140px;
+    font-weight: bold;
+    background-color:rgb(254, 161, 22) ;
+    color: white;
+
+}
+.container .row .col-des .des-4 {
+    font-size: large;
+    font-weight: bold;
+}
+.container .row .col-des .des-4 h3{
+    font-size: 50px;
+    font-weight: bolder;
+    color:rgb(254, 161, 22) ;
+}
+@media only screen and (min-width: 300px) and (max-width: 769px){
+    .container .row .col-des{
+        margin-top: 180px;
+    }
+}
